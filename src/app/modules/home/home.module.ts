@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { FlexLayoutModule } from '@angular/flex-layout';
+// import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from '@app/shared/shared.module';
@@ -14,23 +14,23 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 
 @NgModule({
-    declarations: [
-        HomeComponent,
-        SearchUsernameComponent,
-        UserDetailsComponent,
-        UserReposComponent,
-        UserProfileComponent,
-    ],
-    imports: [
-        CommonModule,
-        SharedModule,
-        HomeRoutingModule,
-        RouterModule,
-        FormsModule,
-        ReactiveFormsModule,
-        FlexLayoutModule,
-        // AvatarModule,
-        NgxPaginationModule,
-    ]
+  declarations: [
+    HomeComponent,
+    SearchUsernameComponent,
+    UserDetailsComponent,
+    UserReposComponent,
+    UserProfileComponent,
+  ],
+  imports: [
+    CommonModule,
+    SharedModule,
+    HomeRoutingModule,
+    RouterModule,
+    FormsModule,
+    ReactiveFormsModule,
+    // FlexLayoutModule,
+    // AvatarModule,
+    NgxPaginationModule,
+  ],
 })
 export class HomeModule {}
