@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-// import { FlexLayoutModule } from '@angular/flex-layout';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from '@app/shared/shared.module';
-// import { AvatarModule } from 'ngx-avatar';
+import { AvatarModule } from 'ngx-avatar';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { SearchUsernameComponent } from './components/search-username/search-username.component';
 import { UserDetailsComponent } from './components/user-details/user-details.component';
@@ -28,8 +28,8 @@ import { HomeComponent } from './home.component';
     RouterModule,
     FormsModule,
     ReactiveFormsModule,
-    // FlexLayoutModule,
-    // AvatarModule,
+    FlexLayoutModule,
+    AvatarModule,
     NgxPaginationModule,
   ],
 })
