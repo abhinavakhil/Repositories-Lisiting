@@ -31,7 +31,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  3) Implmented Server side pagination.
  4) Implemented http interceptors to show loader when the API call is in progress.
  5) Followed Angular Best Practices and scalable folder structure.
- 6) Deployed on Firebase ( )
+ 6) Deployed on Firebase ( https://testing-cc837.web.app/ )
 
 ## Development server
 
