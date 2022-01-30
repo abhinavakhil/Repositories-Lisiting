@@ -14,24 +14,23 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 
 @NgModule({
-  declarations: [
-    HomeComponent,
-    SearchUsernameComponent,
-    UserDetailsComponent,
-    UserReposComponent,
-    UserProfileComponent,
-  ],
-  imports: [
-    CommonModule,
-    SharedModule,
-    HomeRoutingModule,
-    RouterModule,
-    FormsModule,
-    ReactiveFormsModule,
-    FlexLayoutModule,
-    // AvatarModule,
-    NgxPaginationModule,
-  ],
-  entryComponents: [],
+    declarations: [
+        HomeComponent,
+        SearchUsernameComponent,
+        UserDetailsComponent,
+        UserReposComponent,
+        UserProfileComponent,
+    ],
+    imports: [
+        CommonModule,
+        SharedModule,
+        HomeRoutingModule,
+        RouterModule,
+        FormsModule,
+        ReactiveFormsModule,
+        FlexLayoutModule,
+        // AvatarModule,
+        NgxPaginationModule,
+    ]
 })
 export class HomeModule {}
